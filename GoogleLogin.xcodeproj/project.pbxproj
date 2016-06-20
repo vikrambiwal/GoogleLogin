@@ -13,6 +13,18 @@
 		A42D38481D1569D70038B7BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42D38461D1569D70038B7BC /* Main.storyboard */; };
 		A42D384A1D1569D70038B7BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42D38491D1569D70038B7BC /* Assets.xcassets */; };
 		A42D384D1D1569D70038B7BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42D384B1D1569D70038B7BC /* LaunchScreen.storyboard */; };
+		A42D38551D1570450038B7BC /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42D38541D1570450038B7BC /* GoogleSignIn.framework */; };
+		A42D38571D1570570038B7BC /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A42D38561D1570570038B7BC /* GoogleSignIn.bundle */; };
+		A42D38591D1570760038B7BC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42D38581D1570760038B7BC /* SystemConfiguration.framework */; };
+		A42D385B1D15707C0038B7BC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42D385A1D15707C0038B7BC /* StoreKit.framework */; };
+		A42D385D1D1570830038B7BC /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42D385C1D1570830038B7BC /* AddressBook.framework */; };
+		A42D38631D157ADB0038B7BC /* GoogleAppUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42D38601D157ADB0038B7BC /* GoogleAppUtilities.framework */; };
+		A42D38641D157ADB0038B7BC /* GoogleAuthUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42D38611D157ADB0038B7BC /* GoogleAuthUtilities.framework */; };
+		A42D38651D157ADB0038B7BC /* GoogleNetworkingUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42D38621D157ADB0038B7BC /* GoogleNetworkingUtilities.framework */; };
+		A42D38681D157AEA0038B7BC /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42D38661D157AEA0038B7BC /* GoogleSymbolUtilities.framework */; };
+		A42D38691D157AEA0038B7BC /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42D38671D157AEA0038B7BC /* GoogleUtilities.framework */; };
+		A42D386B1D157F980038B7BC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A42D386A1D157F980038B7BC /* libz.tbd */; };
+		A42D386D1D157FB70038B7BC /* libz.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A42D386C1D157FB70038B7BC /* libz.1.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +38,18 @@
 		A42D38491D1569D70038B7BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A42D384C1D1569D70038B7BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A42D384E1D1569D80038B7BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A42D38541D1570450038B7BC /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
+		A42D38561D1570570038B7BC /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
+		A42D38581D1570760038B7BC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A42D385A1D15707C0038B7BC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		A42D385C1D1570830038B7BC /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		A42D38601D157ADB0038B7BC /* GoogleAppUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppUtilities.framework; sourceTree = "<group>"; };
+		A42D38611D157ADB0038B7BC /* GoogleAuthUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAuthUtilities.framework; sourceTree = "<group>"; };
+		A42D38621D157ADB0038B7BC /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		A42D38661D157AEA0038B7BC /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		A42D38671D157AEA0038B7BC /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
+		A42D386A1D157F980038B7BC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A42D386C1D157FB70038B7BC /* libz.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.tbd; path = usr/lib/libz.1.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +57,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A42D386D1D157FB70038B7BC /* libz.1.tbd in Frameworks */,
+				A42D386B1D157F980038B7BC /* libz.tbd in Frameworks */,
+				A42D38691D157AEA0038B7BC /* GoogleUtilities.framework in Frameworks */,
+				A42D385D1D1570830038B7BC /* AddressBook.framework in Frameworks */,
+				A42D38651D157ADB0038B7BC /* GoogleNetworkingUtilities.framework in Frameworks */,
+				A42D38681D157AEA0038B7BC /* GoogleSymbolUtilities.framework in Frameworks */,
+				A42D38631D157ADB0038B7BC /* GoogleAppUtilities.framework in Frameworks */,
+				A42D385B1D15707C0038B7BC /* StoreKit.framework in Frameworks */,
+				A42D38591D1570760038B7BC /* SystemConfiguration.framework in Frameworks */,
+				A42D38641D157ADB0038B7BC /* GoogleAuthUtilities.framework in Frameworks */,
+				A42D38551D1570450038B7BC /* GoogleSignIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +77,16 @@
 		A42D38311D1569D60038B7BC = {
 			isa = PBXGroup;
 			children = (
+				A42D386C1D157FB70038B7BC /* libz.1.tbd */,
+				A42D386A1D157F980038B7BC /* libz.tbd */,
+				A42D38661D157AEA0038B7BC /* GoogleSymbolUtilities.framework */,
+				A42D38671D157AEA0038B7BC /* GoogleUtilities.framework */,
+				A42D38601D157ADB0038B7BC /* GoogleAppUtilities.framework */,
+				A42D38611D157ADB0038B7BC /* GoogleAuthUtilities.framework */,
+				A42D38621D157ADB0038B7BC /* GoogleNetworkingUtilities.framework */,
+				A42D385C1D1570830038B7BC /* AddressBook.framework */,
+				A42D385A1D15707C0038B7BC /* StoreKit.framework */,
+				A42D38581D1570760038B7BC /* SystemConfiguration.framework */,
 				A42D383C1D1569D70038B7BC /* GoogleLogin */,
 				A42D383B1D1569D70038B7BC /* Products */,
 			);
@@ -58,6 +103,8 @@
 		A42D383C1D1569D70038B7BC /* GoogleLogin */ = {
 			isa = PBXGroup;
 			children = (
+				A42D38561D1570570038B7BC /* GoogleSignIn.bundle */,
+				A42D38541D1570450038B7BC /* GoogleSignIn.framework */,
 				A42D38401D1569D70038B7BC /* AppDelegate.h */,
 				A42D38411D1569D70038B7BC /* AppDelegate.m */,
 				A42D38431D1569D70038B7BC /* ViewController.h */,
@@ -136,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A42D38571D1570570038B7BC /* GoogleSignIn.bundle in Resources */,
 				A42D384D1D1569D70038B7BC /* LaunchScreen.storyboard in Resources */,
 				A42D384A1D1569D70038B7BC /* Assets.xcassets in Resources */,
 				A42D38481D1569D70038B7BC /* Main.storyboard in Resources */,
@@ -263,10 +311,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleLogin",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = GoogleLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.balaji.GoogleLogin;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.SignInSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0eef7a71-c45b-4c1a-ac26-1ea8227fcdf2";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
@@ -274,10 +332,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleLogin",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = GoogleLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.balaji.GoogleLogin;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.SignInSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0eef7a71-c45b-4c1a-ac26-1ea8227fcdf2";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};
@@ -300,6 +367,7 @@
 				A42D38531D1569D80038B7BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

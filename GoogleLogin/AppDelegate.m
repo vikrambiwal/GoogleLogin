@@ -13,11 +13,26 @@
 @end
 
 @implementation AppDelegate
+static NSString * const kClientID =
+@"589453917038-qaoga89fitj2ukrsq27ko56fimmojac6.apps.googleusercontent.com";
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+      [GIDSignIn sharedInstance].clientID = kClientID;
+    
+ 
     return YES;
+}
+
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation {
+    return [[GIDSignIn sharedInstance] handleURL:url
+                               sourceApplication:sourceApplication
+                                      annotation:annotation];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
